@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "612667545459",
+    "project_id": "login1autom",
+    "storage_bucket": "login1autom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612667545459:android:ebce3a3b1db8b1b8761706",
+        "android_client_info": {
+          "package_name": "com.uanl.automatizacion1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612667545459-ou1tce7nh6sbhcruh9l5n5u2b8pl9psq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uanl.automatizacion1",
+            "certificate_hash": "372a1f015a04b681947de865feb152de40c08139"
+          }
+        },
+        {
+          "client_id": "612667545459-89pfou71blggq572jhnj1dpjp367j96f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhgbw4jKYVSKbLbJY1RS_xChygW2ot6sU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612667545459-89pfou71blggq572jhnj1dpjp367j96f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

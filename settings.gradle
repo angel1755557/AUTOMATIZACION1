@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "AUTOMATIZACION1"
+include ':app'

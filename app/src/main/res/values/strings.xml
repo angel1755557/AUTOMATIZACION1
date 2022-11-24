@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AUTOMATIZACION1</string>
+    <string name="automatizaci_n">Automatización</string>
+    <string name="estudio_del_trabajo">Estudio del Trabajo</string>
+    <string name="automatizacion">AUTOMATIZACION</string>
+    <string name="todo">TODO</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="correo">Correo</string>
+    <string name="todo_">TODO</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="contrase_a2">Contraseña</string>
+    <string name="practica_1">Práctica 1</string>
+    <string name="practicas_automatizacion">Prácticas Automatización</string>
+    <string name="practica_2">Práctica 2</string>
+    <string name="práctica3">Práctica 3</string>
+    <string name="práctica_2">Práctica 2</string>
+    <string name="práctica_4">Práctica 4</string>
+    <string name="práctica_5">Práctica 5</string>
+    <string name="practicas_metrología" />
+</resources>

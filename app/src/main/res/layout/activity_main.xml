@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFC"
+    tools:context=".activitymain">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todo_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uanl"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btn_automatización"
+        android:layout_width="178dp"
+        android:layout_height="93dp"
+        android:backgroundTint="#F30606"
+        android:onClick="buttonPress"
+        android:text="@string/automatizaci_n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ET"
+        app:layout_constraintVertical_bias="0.12"
+        tools:ignore="OnClick,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/btn_ET"
+        android:layout_width="178dp"
+        android:layout_height="93dp"
+        android:backgroundTint="#F30606"
+        android:text="@string/estudio_del_trabajo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="139dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:src="@drawable/img_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_metrología"
+        android:layout_width="178dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#F30606"
+        android:text="METROLOGÍA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_automatización" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

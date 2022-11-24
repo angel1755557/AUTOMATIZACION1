@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".practica_auto_2">
+
+    <TextView
+        android:id="@+id/TITULO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:text="PRÁCTICA 2"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="295dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="INSTRUMENTOS BÁSICOS DE LECTURA DIRECTA FIJA"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TITULO2" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="172dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/img_15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="162dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="340dp"
+        android:src="@drawable/img_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="128dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/img_18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="135dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="428dp"
+        android:src="@drawable/img_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TITULO2" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="99dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="552dp"
+        android:src="@drawable/img_21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="115dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="636dp"
+        android:src="@drawable/img_22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="145dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="736dp"
+        android:src="@drawable/RETICULA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="172dp"
+        android:backgroundTint="#F30606"
+        android:text="Lainas calibradas "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F30606"
+        android:text="Calibre paso de rosca "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="232dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#F30606"
+        android:text="Calibre de hilos por pulgada "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#F30606"
+        android:text="Calibre de radios "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="220dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#F30606"
+        android:text="Calibre de alambres y chapas "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#F30606"
+        android:text="Lupa de comparación 10x "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#F30606"
+        android:text="Lupa de comparación 50x "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#F30606"
+        android:text="Retícula "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
